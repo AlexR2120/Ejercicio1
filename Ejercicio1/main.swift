@@ -1,11 +1,18 @@
-//
-//  main.swift
-//  Ejercicio1
-//
-//  Created by user231456 on 03/12/2024.
-//
+// EJERCICIO 1
 
-import Foundation
+// Array con números integrados
+var num : [Int] = [3,5,8,32,17]
 
-print("Hello, World!")
+// Sumamos los elementos del Array
+var arraySum = num.reduce(0, +)
+
+// Calculamos el total de
+// elementos del Array
+var length = num.count
+
+// Sacamos la media
+var media = Double(arraySum)/Double(length)
+
+print(num)
+print("La media es: ", media)
 
